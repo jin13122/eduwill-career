@@ -459,7 +459,15 @@
             <!-- 폼 컨테이너 -->
             <div id="formContainer" data-aos="fade-up">
                 <form id="inquiryForm" class="bg-gray-800 p-8 rounded-2xl shadow-xl space-y-6">
-                    <input type="hidden" name="_form_id" value="6268eb1b627d154e9d47d6ba71ce789f" />
+                    <!-- 인풋헤븐 ID 변경됨 -->
+                    <input type="hidden" name="_form_id" value="abc6a6a03b716a48322c948c0c60b4cf" />
+                    
+                    <!-- 과정명 추가됨 (읽기 전용) -->
+                    <div>
+                        <label for="course" class="block text-sm font-bold text-gray-300 mb-2">과정명</label>
+                        <input type="text" id="course" name="과정명" value="직업상담사-에듀윌" readonly class="w-full bg-gray-700 border border-gray-600 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-eduwill focus:ring-1 focus:ring-eduwill transition-colors cursor-not-allowed" />
+                    </div>
+
                     <div>
                         <label for="name" class="block text-sm font-bold text-gray-300 mb-2">이름</label>
                         <input type="text" id="name" name="name" placeholder="예) 홍길동" required class="w-full bg-gray-700 border border-gray-600 rounded-xl px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-eduwill focus:ring-1 focus:ring-eduwill transition-colors" />
